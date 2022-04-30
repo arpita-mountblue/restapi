@@ -3,6 +3,7 @@ require("./database/conn");
 const movie = require("./models/movies");
 let dotenv = require("dotenv");
 
+dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
